@@ -4,7 +4,7 @@ date: '2021-01-11'
 excerpt: Panduan bagaimana cara untuk melakukan Fetch sebuah API di lingkungan Node.js
 author: Aryo
 published: true
-category: [javascript]
+tags: [javascript]
 coverImage: /assets/post/fetch-api-nodejs.jpg
 ---
 ---

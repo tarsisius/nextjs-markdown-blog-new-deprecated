@@ -1,23 +1,44 @@
-import Dynamic from 'next/dynamic'
-import Link from 'next/link'
-
-const Toggle = Dynamic(() => import('@components/Toggle'), {
-    ssr: false,
-})
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
-    return (
-        <header>
-            <div className="container">
+  const [activeTheme, setActiveTheme] = useState(document.body.dataset.theme);
+  const inactiveTheme = activeTheme === "light" ? "dark" : "light";
 
-                <h1 className="logo">
-                    <Link href="/">
-                        <a> Blog </a>
-                    </Link>
-                </h1>
-                <Toggle />
-            </div>
-        </header>
-    )
+  useEffect(() => {
+    document.body.dataset.theme = activeTheme;
+    window.localStorage.setItem("theme", activeTheme);
+  }, [activeTheme]);
+
+  return (
+    <header>
+      <div className="header-inner">
+        <span className="logo">
+          <Link href="/">
+            <a> Blog </a>
+          </Link>
+        </span>
+        <span className="space"></span>
+        <div className="nav">
+          <span className="search">
+            <Image src="/assets/svg/search.svg" layout="fill" alt="" />
+          </span>
+          <span
+            className="toggle"
+            onClick={() => setActiveTheme(inactiveTheme)}
+            aria-label={inactiveTheme + " mode"}
+            title={inactiveTheme + " mode"}
+          >
+            {activeTheme == "dark" && (
+              <Image src="/assets/svg/light.svg" layout="fill" alt="" />
+            )}
+            {activeTheme == "light" && (
+              <Image src="/assets/svg/dark.svg" layout="fill" alt="" />
+            )}
+          </span>
+        </div>
+      </div>
+    </header>
+  );
 }
- 

@@ -4,7 +4,7 @@ date: '2019-02-19'
 excerpt: Alasan mengapa kami memutuskan untuk mengeksten HTML Formatter resmi ESLint
 author: aryo
 published: true
-category: [javascript, eslint]
+tags: [javascript, eslint]
 coverImage: /assets/post/post.png
 ---
 

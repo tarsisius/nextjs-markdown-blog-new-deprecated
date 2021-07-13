@@ -4,7 +4,7 @@ date: '2020-11-03'
 excerpt: Cara jahat menipu alat pengukur performa web Lighthouse
 author: aryo
 published: true
-category: [web-perf]
+tags: [web-perf]
 coverImage: /assets/post/pexels-kaique-rocha-48013.jpg
 ---
 

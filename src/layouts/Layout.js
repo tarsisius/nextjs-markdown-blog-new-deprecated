@@ -1,14 +1,18 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+// import Header from "@/components/Header";
+
+import Dynamic from "next/dynamic";
+import Footer from "@/components/Footer";
+
+const Header = Dynamic(() => import("@/components/Header"), {
+  ssr: false,
+});
 
 export default function Layout({ children }) {
-    return (
-        <>
-            <Header />
-            <main className="container">
-                {children}
-            </main>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
+  );
 }

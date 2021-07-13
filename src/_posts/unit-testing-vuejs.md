@@ -4,7 +4,7 @@ date: '2019-03-19'
 excerpt: Langkah-langkah memasang dan melakukan testing pada kode Vue.js dan Nuxt.js dengan belajar dari berbagai kasus yang terjadi pada proyek nyata
 author: aryo
 published: true
-category: [javascript, testing]
+tags: [javascript, testing]
 coverImage: /assets/post/devtools.png
 ---
 

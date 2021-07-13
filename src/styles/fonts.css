@@ -1,0 +1,42 @@
+/* @font-face {
+    font-family: 'sofia-pro';
+    src: url('https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('woff2'), url('https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('woff'), url('https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('https://use.typekit.net/af/1fda95/0000000000000000000157aa/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3') format('woff2'), url('https://use.typekit.net/af/1fda95/0000000000000000000157aa/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3') format('woff'), url('https://use.typekit.net/af/1fda95/0000000000000000000157aa/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3') format('opentype');
+    font-display: auto;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('https://use.typekit.net/af/07553a/0000000000000000000157ad/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff2'), url('https://use.typekit.net/af/07553a/0000000000000000000157ad/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('woff'), url('https://use.typekit.net/af/07553a/0000000000000000000157ad/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('https://use.typekit.net/af/c07bfb/0000000000000000000157b1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('woff2'), url('https://use.typekit.net/af/c07bfb/0000000000000000000157b1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('woff'), url('https://use.typekit.net/af/c07bfb/0000000000000000000157b1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3') format('opentype');
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'sofia-pro';
+    src: url('https://use.typekit.net/af/7eae32/0000000000000000000157b2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3') format('woff2'), url('https://use.typekit.net/af/7eae32/0000000000000000000157b2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3') format('woff'), url('https://use.typekit.net/af/7eae32/0000000000000000000157b2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3') format('opentype');
+    font-display: auto;
+    font-style: italic;
+    font-weight: 400;
+} */
+
+/* @import url("https://fonts.googleapis.com/css?family=Nunito:200,400,400i,600,700,800"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");

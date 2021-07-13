@@ -4,7 +4,7 @@ date: '2020-11-10'
 excerpt: Memperkenalkan versi GraphQL sederhana dari PokeApi.co yang di deploy ke Vercel
 author: Aryo
 published: true
-category: [open-source]
+tags: [open-source]
 coverImage: /assets/post/graphgql-pokeapi.png
 ---
 

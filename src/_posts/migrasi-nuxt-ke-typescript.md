@@ -4,7 +4,7 @@ date: '2019-05-15'
 excerpt: Menceritakan beberapa langkah yang saya kerjakan ketika melakukan migrasi project Nuxt dari menggunakan JavaScript vanilla menjadi menggunakan TypeScript
 author: aryo
 published: true
-category: [nuxt, typescript]
+tags: [nuxt, typescript]
 coverImage: /assets/post/lcp-fid-cls.png
 ---
 

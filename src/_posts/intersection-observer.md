@@ -4,7 +4,7 @@ date: '2018-04-16'
 excerpt: Mengupas sedikit banyak hal mengenai Intersection Observer dengan berbagai contoh kasus di lapangan
 author: Aryo
 published: true
-category: [web]
+tags: [web]
 coverImage: /assets/post/intersection-observer.jpg
 ---
 
